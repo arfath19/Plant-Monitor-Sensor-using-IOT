@@ -8,7 +8,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
                 .create(
-                     body="Join Earth's mightiest heroes. Like Kevin Bacon.",
+                     body="VAlue at sensor",
                      from_='+19292078819',
                      to='+918978434569'
                  )
